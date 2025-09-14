@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Chatbot</title>
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header Section -->
+        <div class="chat-header">
+            <h1>🤖 My Chatbot</h1>
+            <p>Welcome! Start chatting below</p>
+        </div>
+
+        <!-- Messages Section -->
+        <div class="messages-area">
+            <!-- Bot welcome message -->
+            <div class="message bot">
+                <div class="message-bubble">
+                    Hello! I'm your chatbot assistant. How can I help you today?
+                </div>
+            </div>
+
+            <!-- Example user message -->
+            <div class="message user">
+                <div class="message-bubble">
+                    Hi there! How are you?
+                </div>
+            </div>
+
+            <!-- Example bot response -->
+            <div class="message bot">
+                <div class="message-bubble">
+                    I'm doing great, thank you for asking! What would you like to chat about?
+                </div>
+            </div>
+
+            <!-- Another user message -->
+            <div class="message user">
+                <div class="message-bubble">
+                    Can you help me with something?
+                </div>
+            </div>
+
+            <!-- Another bot response -->
+            <div class="message bot">
+                <div class="message-bubble">
+                    Of course! I'd be happy to help. What do you need assistance with?
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Section -->
+        <div class="input-area">
+            <input 
+                type="text" 
+                class="message-input" 
+                placeholder="Type your message here..."
+            >
+            <button class="send-button">Send</button>
+        </div>
+    </div>
+</body>
+</html>
